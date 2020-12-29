@@ -133,7 +133,15 @@
 			<artifactId>lombok</artifactId>
 			<version>1.18.0</version>
 			<scope>provided</scope>
-		</dependency>          
+		</dependency>
+		
+		<!-- hkiariCP  -->
+		<dependency>
+			<groupId>com.zaxxer</groupId>
+			<artifactId>HikariCP</artifactId>
+			<version>2.7.4</version>
+		</dependency>	
+		        
 	</dependencies>
     <build>
         <plugins>
