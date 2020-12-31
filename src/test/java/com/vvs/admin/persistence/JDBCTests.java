@@ -1,4 +1,4 @@
-package com.vvs.persistence;
+package com.vvs.admin.persistence;
 
 import static org.junit.Assert.fail;
 

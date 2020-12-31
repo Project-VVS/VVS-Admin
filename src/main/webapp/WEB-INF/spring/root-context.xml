@@ -11,6 +11,14 @@
 		value="oracle.jdbc.driver.OracleDriver"></property>
 		<property name="jdbcUrl" 
 		value="jdbc:oracle:thin:@localhost:1521:XE"></property>
+		<property name="username" value="vvsMng"></property>
+		<property name="password" value="vvsMng"></property>
 	</bean>
-		
+	
+	<!-- hikariCP configuration  -->
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+		<constructor-arg ref="hikariConfig"/>
+	</bean>
+	
+	<context:component-scan base-package="com.vvs.admin.service"></context:component-scan>
 </beans>

@@ -1,4 +1,4 @@
-package com.vvs.controller;
+package com.vvs.admin.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
